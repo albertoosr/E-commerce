@@ -1,0 +1,17 @@
+
+/****Datos*****/
+
+Alumno: Juan Alberto Osorio Osorio
+grupo: 10ITI1
+
+/**** Material de desarrollo ****/
+
+Lenguaje de programación: PHP 
+Diseño: Bootstrap y just color picker
+Hosting: Lucushost
+URL: www.gswyhipf.lucusvirtual.es
+Gestor de versiones: GitHub
+Link: https://github.com/albertoosr/E-commerce
+
+"Diseño realizar confines educativos - 2020"
+
