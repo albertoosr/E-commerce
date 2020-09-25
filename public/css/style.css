@@ -3,19 +3,32 @@
     El siguiente proyecto es realizado confines educativos,
     de igual manera las imagenes presentados en dicho diseño
 */
+:root{
+    --primary: #3167EB;
+    --secundary: #F8F9FA;
+    --ligth: #969696;
+    --bglight: #FFFF;
+}
+
 
 *{
     padding: 0;
     margin: 0;
     box-sizing: 0;
     font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
 }
+
 
 /*html:5*/
 a {
     color: #3167eb;
     text-decoration: none;
     background-color: transparent;
+}
+
+a:hover{
+    text-decoration: none;
 }
 
 p:last-child {
@@ -335,13 +348,82 @@ figure {
     padding-bottom: 20px;
 }
 
+/* about */
+#about{
+    background-color: var(--bglight);
+}
+#about h2{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-weight: bold;   
+}
 
+#about .about-text{
+    text-align: center;
+    font-size: 1.4rem;
+    padding-bottom: 20px;
+   color: var(--ligth);
+}
+
+
+#about-info p{
+    text-align: center;
+    font-size: 1.2rem;
+    color: var(--ligth);
+}
+
+#about-info div{
+    padding-bottom: 30px;
+    /* border: 1px solid #000; */
+}
+
+.info-inputs input{
+    border-radius: 0px;
+    border: 1px solid #AAABAD;
+}
+
+.info-email{
+    display: none;
+}
+
+.important{
+    color: #fa3434;
+}
+
+.img-error img{
+    width: 60%;
+}
+
+.img404{
+    width: 40%;
+}
 /* responsive */
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {  
 
     .card-product-grid img{
         width: 65%;
+    }
+
+    #about h2{
+        font-size: 25px;
+    }
+
+    #about .about-text{
+        font-size: 20px;
+    }
+
+    #about-info{
+        display: block;
+    }
+    
+    .imges img{
+        width: 100%;
+    }
+
+    .img404{
+        width: 80%;
     }
 }
 

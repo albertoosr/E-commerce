@@ -98,7 +98,7 @@
                 <div href="#" class="card card-product-grid">
                     <a href="#" class="img-wrap"> <img src="resources/img/img1.png" style="max-width: 100%;"> </a>
                     <figcaption class="info-wrap">
-                        <a href="#" class="title">Just another product name</a>
+                        <a href="information.php?id=1" class="title hint--bottom hint--success hint--rounded" aria-label="Comprar Ahora">Just another product name</a>
 
                         <div class="d-flex rating-wrap">
                             <ul class="rating-stars">
@@ -119,7 +119,7 @@
                 <div href="#" class="card card-product-grid">
                     <a href="#" class="img-wrap"> <img src="resources/img/img2.png" style="max-width: 100%;"> </a>
                     <figcaption class="info-wrap">
-                        <a href="#" class="title">Just another product name</a>
+                        <a href="information.php?id=2" class="title hint--bottom hint--success hint--rounded" aria-label="Comprar Ahora">Just another product name</a>
 
                         <div class="d-flex rating-wrap">
                             <ul class="rating-stars">
@@ -140,7 +140,7 @@
                 <div href="#" class="card card-product-grid">
                     <a href="#" class="img-wrap"> <img src="resources/img/img3.jpg" style="max-width: 100%;"> </a>
                     <figcaption class="info-wrap">
-                        <a href="#" class="title">Just another product name</a>
+                        <a href="information.php?id=3" class="title hint--bottom hint--success hint--rounded" aria-label="Comprar Ahora">Just another product name</a>
 
                         <div class="d-flex rating-wrap">
                             <ul class="rating-stars">
@@ -161,7 +161,7 @@
                 <div href="#" class="card card-product-grid">
                     <a href="#" class="img-wrap"> <img src="resources/img/img4.png" style="max-width: 100%;"> </a>
                     <figcaption class="info-wrap">
-                        <a href="#" class="title">Just another product name</a>
+                        <a href="information.php?id=4" class="title hint--bottom hint--success hint--rounded" aria-label="Comprar Ahora">Just another product name</a>
 
                         <div class="d-flex rating-wrap">
                             <ul class="rating-stars">
@@ -196,7 +196,7 @@
                 <div href="#" class="card card-product-grid">
                     <a href="#" class="img-wrap"> <img src="resources/img/img5.png" style="max-width: 100%;"> </a>
                     <figcaption class="info-wrap">
-                        <a href="#" class="title">Just Another Product Name</a>
+                        <a href="information.php?id=5" class="title hint--bottom hint--success hint--rounded" aria-label="Comprar Ahora">Just Another Product Name</a>
 
                         <div class="d-flex rating-wrap">
                             <ul class="rating-stars">
@@ -217,7 +217,7 @@
                 <div href="#" class="card card-product-grid">
                     <a href="#" class="img-wrap"> <img src="resources/img/img6.png" style="max-width: 100%;"> </a>
                     <figcaption class="info-wrap">
-                        <a href="#" class="title">Just Another Product Name</a>
+                        <a href="information.php?id=6" class="title hint--bottom hint--success hint--rounded" aria-label="Comprar Ahora">Just Another Product Name</a>
 
                         <div class="d-flex rating-wrap">
                             <ul class="rating-stars">
@@ -238,7 +238,7 @@
                 <div href="#" class="card card-product-grid">
                     <a href="#" class="img-wrap"> <img src="resources/img/img7.png" style="max-width: 100%;"> </a>
                     <figcaption class="info-wrap">
-                        <a href="#" class="title">Just Another Product Name</a>
+                        <a href="information.php?id=7" class="title hint--bottom hint--success hint--rounded" aria-label="Comprar Ahora">Just Another Product Name</a>
 
                         <div class="d-flex rating-wrap">
                             <ul class="rating-stars">
@@ -259,7 +259,7 @@
                 <div href="#" class="card card-product-grid">
                     <a href="#" class="img-wrap"> <img src="resources/img/img8.png" style="max-width: 100%;"> </a>
                     <figcaption class="info-wrap">
-                        <a href="#" class="title">Just Another Product Name</a>
+                        <a href="information.php?id=8" class="title hint--bottom hint--success hint--rounded" aria-label="Comprar Ahora">Just Another Product Name</a>
 
                         <div class="d-flex rating-wrap">
                             <ul class="rating-stars">
@@ -286,16 +286,19 @@
     <div class="container">
 
         <header class="section-heading">
-            <a href="#" class="btn btn-outline-primary float-right">See All</a>
+            <a href="#erros" class="btn btn-outline-primary float-right">See All</a>
             <h3 class="section-title">Recommended</h3>
         </header>
+        <div id="erros" class="alert alert-danger" role="alert">
+            Sorry, we don't have any more products
+        </div>
 
         <div class="row">
             <div class="col-md-3">
                 <div href="#" class="card card-product-grid">
                     <a href="#" class="img-wrap"> <img src="resources/img/img7.png" style="max-width: 100%;"> </a>
                     <figcaption class="info-wrap">
-                        <a href="#" class="title">Just Another Product Name</a>
+                        <a href="#erros" class="title hint--bottom hint--error hint--rounded" aria-label="Este producto no esta disponible">Just Another Product Name</a>
                         <div class="price mt-1">$179.00</div>
                     </figcaption>
                 </div>
@@ -304,7 +307,7 @@
                 <div href="#" class="card card-product-grid">
                     <a href="#" class="img-wrap"> <img src="resources/img/img4.png" style="max-width: 100%;"> </a>
                     <figcaption class="info-wrap">
-                        <a href="#" class="title">Just Another Product Name</a>
+                        <a href="#erros" class="title hint--bottom hint--error hint--rounded" aria-label="Este producto no esta disponible">Just Another Product Name</a>
                         <div class="price mt-1">$280.00</div>
                     </figcaption>
                 </div>
@@ -313,7 +316,7 @@
                 <div href="#" class="card card-product-grid">
                     <a href="#" class="img-wrap"> <img src="resources/img/img2.png" style="max-width: 100%;"> </a>
                     <figcaption class="info-wrap">
-                        <a href="#" class="title">Just Another Product Name</a>
+                        <a href="#erros" class="title hint--bottom hint--error hint--rounded" aria-label="Este producto no esta disponible">Just Another Product Name</a>
                         <div class="price mt-1">$56.00</div>
                     </figcaption>
                 </div>
@@ -322,7 +325,7 @@
                 <div href="#" class="card card-product-grid">
                     <a href="#" class="img-wrap"> <img src="resources/img/img5.png" style="max-width: 100%;"> </a>
                     <figcaption class="info-wrap">
-                        <a href="#" class="title">Just Another Product Name</a>
+                        <a href="#erros" class="title hint--bottom hint--error hint--rounded" aria-label="Este producto no esta disponible">Just Another Product Name</a>
                         <div class="price mt-1">$179.00</div>
                     </figcaption>
                 </div>

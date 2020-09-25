@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/39610b5df0.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="public/css/style.css">
+    <link rel="stylesheet" href="public/css/hint.min.css">
 
     <title>E-commerce</title>
     <link rel="icon" type="image/png" href="logo.ico" />
@@ -22,10 +23,10 @@
         <nav class="navbar navbar-dark navbar-expand p-0 bg-primary">
             <div class="container">
                 <ul class="navbar-nav d-none d-md-flex mr-auto">
-                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Products</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.php">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="product.php">Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contac.php">Contact</a></li>
                     <!-- <li class="nav-item"><a class="nav-link" href="#">Payment</a></li> -->
                 </ul>
                 <ul class="navbar-nav">
@@ -44,7 +45,7 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-2 col-6">
-                        <a href="#" class="brand-wrap">
+                        <a href="index.php" class="brand-wrap">
                             <img class="logo" src="resources/img/logo.png">
                         </a>
                     </div>
